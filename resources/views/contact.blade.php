@@ -8,7 +8,7 @@
         We would love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out to us.
 
         Email:
-        You can email us at contact@example.com.
+        You can email us at  <a href="mailto:contact@example.com">contact@example.com</a>
 
         Phone:
         Give us a call at (123) 456-7890. Our team is available Monday through Friday, 9 AM to 5 PM.
