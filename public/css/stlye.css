@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+
+/* Navigation bar styles */
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4CAF50; /* Change color on hover */
+}
+
+
+/* Container for Sidebar and Content */
+.container {
+    display: flex;
+    padding: 20px;
+    flex-direction: row; /* Ensure elements are aligned in a row */
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    padding: 20px;
+    order: 1; /* Set main content to appear first */
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    order: 2; /* Set sidebar to appear after content */
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: #4CAF50;
+}
