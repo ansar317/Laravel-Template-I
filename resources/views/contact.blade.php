@@ -21,11 +21,11 @@
         Follow Us on Social Media:
         Stay connected with us on our social media channels for updates and news:
             <br>
-        <a href="">Facebook</a>
+        <a href="{{ url('/') }}"><i class="bi bi-facebook"></i> Facebook</a>
             <br>
-        <a href="">Twitter</a>
+        <a href="{{ url('/') }}"><i class="bi bi-twitter"></i> X(Twitter)</a>
             <br>
-        <a href="">LinkedIn</a>
+        <a href="{{ url('/') }}"><i class="bi bi-linkedin"></i> LinkedIn</a>
             <br>
         Thank you for considering XUFIRE. We look forward to hearing from you soon!
         </p>
